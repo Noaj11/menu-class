@@ -1,13 +1,11 @@
-.top {
-  width: 1187px;
-}
-
-.mycontainer {
+body{
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
-  width: 33%;
-  float: left;
-  box-sizing: border-box;
-  padding: 10px;
+}
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .ht-item.logo {
@@ -20,9 +18,30 @@
   background-color: #222;
   padding: 0 15px;
   align-items: center;
+  justify-content: center; 
 }
 
+.top {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+
+
+
+
+
+.mycontainer {
+  display: block;
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+
+
 nav {
+  margin-top: 100px;
   text-align: center;
   padding: 10px 0;
   border-bottom: 1px solid #aaa;
@@ -74,7 +93,10 @@ nav ul li .submenu li a {
   padding: 10px 0;
   display: block;
 }
-
+input{
+  text-align: center;
+  padding: 10px;
+}
 .top-bar {
   padding: 10px 10px 10px 20px;
   margin-bottom: 10px;
